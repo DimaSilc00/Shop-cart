@@ -7,7 +7,7 @@ import Info from './components/Info';
 import { gameScreenshots, gameDetails } from '../../rawg-api';
 import { Game } from '../../types/Game.types';
 import NavBar from '../../components/NavBar';
-import { RiAddLine, RiCheckLine } from 'react-icons/ri';
+import { RiAddLine } from 'react-icons/ri';
 import getPrice from '../../utils/getPrice';
 import { useTranslation } from 'react-i18next';
 
@@ -16,7 +16,7 @@ interface Props {
   addToCart: (game: Game) => void,
 }
 
-function GameDetails({ cartItems, addToCart }: Props) {
+function GameDetails({ addToCart }: Props) {
   const params = useParams();
   const id = Number(params.gameId);
   const [game, setGame] = useState<Game>();
