@@ -1,7 +1,6 @@
 {
   "name": "shopping-cart",
   "version": "0.1.0",
-  "homepage": "https://nekusu.github.io/shopping-cart",
   "private": true,
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
@@ -15,9 +14,8 @@
     "framer-motion": "^6.3.11",
     "framer-motion-scroll-to-hook": "^1.0.1",
     "i18next": "^23.2.7",
-    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-browser-languagedetector": "^7.0.2",
     "i18next-http-backend": "^2.2.1",
-    "mssql": "^9.1.1",
     "react": "^18.1.0",
     "react-cssfx-loading": "^1.1.1",
     "react-dom": "^18.1.0",
@@ -29,7 +27,6 @@
     "react-scripts": "5.0.1",
     "sass": "^1.52.3",
     "scroll-lock": "^2.1.5",
-    "tedious": "^16.0.0",
     "typescript": "^4.7.3"
   },
   "scripts": {
@@ -67,5 +64,9 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "gh-pages": "^4.0.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/DimaSilc00/Shop-cart.git",
+  "author": "DimaSilc00 <davydenko.dimitri@yandex.by>",
+  "license": "MIT"
 }
