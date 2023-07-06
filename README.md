@@ -2,9 +2,7 @@
 
 ![](/assets/presentation.png)
 
-<p align="center">
-  Shopping Cart for <a href="https://www.theodinproject.com/">The Odin Project</a>
-</p>
+
 
 
 
